@@ -7,6 +7,8 @@ if (cluster.isMaster) {
   //if so, fork it
 
   cluster.fork();
+  cluster.fork();
+
   //if not execute code
 } else {
   //im a child, im going to act like a server and do nothing else
