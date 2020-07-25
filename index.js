@@ -5,7 +5,7 @@ process.env.UV_THREADPOOL_SIZE = 1;
 //is file running in master mode (initial boot)
 if (cluster.isMaster) {
   //if so, fork it
-
+  //each of the below
   cluster.fork();
   cluster.fork();
 
